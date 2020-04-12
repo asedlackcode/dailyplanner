@@ -24,3 +24,17 @@ textarea:active {
 button:hover {
     background-color: tomato;
 }
+@media only screen and (max-width: 768px) {
+   .row {
+       flex-wrap: unset;
+       border: black solid;
+       margin-bottom: 10px;
+   }
+   .time-block {
+       background-color: black;
+       color: white;
+   }
+   .fa-save {
+       color:white;
+   };
+};
