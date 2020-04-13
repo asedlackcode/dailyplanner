@@ -26,7 +26,7 @@ button:hover {
 }
 @media only screen and (max-width: 768px) {
    .row {
-       flex-wrap: unset;
+       flex-wrap: nowrap;
        border: black solid;
        margin-bottom: 10px;
    }
