@@ -1,8 +1,12 @@
 #today  {
     text-align: center;
     align-content: center;
-    background-color: black;
+    background-color:lightseagreen;
     color: white;
+    border-bottom: black thin solid;
+}
+body {
+    background-color: black;
 }
 .display-3 {
     font-family: fantasy;
@@ -16,23 +20,30 @@
     text-align: center;
 }
 textarea:hover {
-    background-color: tomato;
+    background-color: blueviolet;
 }
 textarea:active {
     background-color: slateblue;
 }
 button:hover {
-    background-color: tomato;
+    background-color: blueviolet;
 }
 @media only screen and (max-width: 768px) {
    .row {
-       flex-wrap: nowrap;
-       border: black solid;
+       flex-wrap: unset;
+       border: black solid thin;
        margin-bottom: 10px;
    }
+   .past {
+       flex-wrap: unset;
+   }
    .time-block {
-       background-color: black;
+       background-color: teal;
        color: white;
+       /* padding-top: 15px; */
+   }
+   #hour-9 {
+       padding-top: 15px;
    }
    .fa-save {
        color:white;
